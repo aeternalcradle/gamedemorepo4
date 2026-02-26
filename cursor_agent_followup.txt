@@ -1,0 +1,15 @@
+请自动修复当前项目并满足自检要求。
+要求：
+1) 修复失败项；
+2) 只做最小必要修改；
+3) 修复后重新运行 `python check_game.py` 并确保 Self-test passed；
+4) 输出修改文件与原因。
+
+失败项：
+- Missing scripts: ['/Users/xd/Downloads/GameGen/demo2/js/main.js']
+- main.js path could not be resolved
+
+index.html: /Users/xd/Downloads/GameGen/demo2/demo2/index.html
+候选脚本文件：
+- /Users/xd/Downloads/GameGen/demo2/demo2/game.js
+- /Users/xd/Downloads/GameGen/demo2/phaser.min.js
