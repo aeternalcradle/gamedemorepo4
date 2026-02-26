@@ -463,7 +463,7 @@ class MainScene extends Phaser.Scene {
         this.createInfoSlot(startX + slotWidth + 10, startY + slotHeight + 15, '💤 空闲', () => `${this.resourceManager.idleWorkers}`, 0x5a5a6e);
         
         this.createInfoSlot(startX + (slotWidth + 10) * 2, startY, '🪵 木材', () => `${Math.floor(this.resourceManager.wood)}`, 0x6a5a3e);
-        this.createInfoSlot(startX + (slotWidth + 10) * 2, startY + slotHeight + 15, '�ite 煤炭', () => `${Math.floor(this.resourceManager.coal)}`, 0x3a3a4e);
+        this.createInfoSlot(startX + (slotWidth + 10) * 2, startY + slotHeight + 15, '⛏️ 煤炭', () => `${Math.floor(this.resourceManager.coal)}`, 0x3a3a4e);
     }
 
     createInfoSlot(x, y, label, getValue, color) {
